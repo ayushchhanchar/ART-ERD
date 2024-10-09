@@ -1,0 +1,101 @@
+.custom-node {
+    background-color: #2a79c8;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .node-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .collapse-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .node-body {
+    background-color: #0faab2;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .node-subheading {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .node-components {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .node-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #e5e7eb;
+    border-radius: 5px;
+  }
+  
+  .node-component .react-flow__handle {
+    width: 10px;
+    height: 10px;
+    background-color: #6b7280;
+  }
+  
+  .react-flow__handle {
+    background-color: #374151;
+  }
+  
+  .custom-node .react-flow__handle-left {
+    left: -5px;
+  }
+  
+  .custom-node .react-flow__handle-right {
+    right: -5px;
+  }
+  
+  .custom-node .react-flow__handle-top {
+    top: -5px;
+  }
+  
+  .custom-node .react-flow__handle-bottom {
+    bottom: -5px;
+  }
+  
+
+
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    min-width: 300px;
+  }
+  
