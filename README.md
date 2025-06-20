@@ -1,8 +1,25 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📦 How to Use
 
-Currently, two official plugins are available:
+1. Clone or download the repository.
+2. Open the ERD image or PDF to view the schema.
+3. Use it as a reference to create tables in your SQL database.
+4. Extend the schema based on new project requirements.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📚 Future Plans
+
+- Add SQL DDL scripts to auto-generate tables
+- Convert into SQLAlchemy or Django ORM models
+- Add normalization explanation and database optimization notes
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Author
+
+Created with 💡 by **Ayush Chhanchar**  
+🔗 [GitHub Profile](https://github.com/ayushchhanchar)
+
