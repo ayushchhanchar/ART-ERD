@@ -1,4 +1,54 @@
+# 🧩 ART-ERD: Entity Relationship Diagram for ART Management System
 
+This repository contains the **Entity Relationship Diagram (ERD)** and database schema planning for the **ART (Abstinent Research & Technologies) Management System**. The ERD visually represents the structure of the database including tables, fields, relationships, and keys used to model the data and business rules for the system.
+
+## 🗂️ Project Description
+
+The ART-ERD is designed to help developers and teams clearly understand the data relationships and architecture of a backend system that powers various modules like employee management, client tracking, project handling, and internal workflows.
+
+This project provides:
+- 📊 A clear **ER diagram** representing entities and their relationships  
+- 🗃️ Database planning and table references  
+- 🔐 Field types, constraints, and keys for accurate implementation  
+- 📚 Useful for backend development, database normalization, and documentation
+
+## 🧠 Use Case
+
+This ERD is ideal for:
+- Project planning & architecture for ART internal systems
+- Developer onboarding for database understanding
+- Converting into relational databases (MySQL, PostgreSQL, etc.)
+- Future expansion for application or admin dashboards
+
+## 🔍 ERD Overview
+
+> The diagram illustrates relationships between key entities like:
+
+- **Users / Employees**
+- **Departments**
+- **Projects**
+- **Tasks**
+- **Clients**
+- **Attendance / Leaves**
+- **Roles & Permissions**
+
+## 🛠️ Tools & Technologies Used
+
+| Purpose            | Tool / Format            |
+|--------------------|--------------------------|
+| Diagram Creation   | dbdiagram.io / draw.io / Lucidchart (as applicable) |
+| Format             | PNG / PDF / Source files |
+| Database Target    | SQL-based RDBMS (MySQL, PostgreSQL) |
+
+## 🖼️ Preview
+
+You can find the ERD diagram file in the repository in image or PDF format:
+/ART-ERD/
+│
+├── art-erd.png # Visual ER Diagram
+├── art-erd.pdf # Printable PDF version
+├── art-erd-source.drawio (optional)
+└── README.md # Documentation
 ## 📦 How to Use
 
 1. Clone or download the repository.
