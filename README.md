@@ -1,6 +1,5 @@
 # 🧩 ART-ERD: Entity Relationship Diagram for ART Management System
 
-This repository contains the **Entity Relationship Diagram (ERD)** and database schema planning for the **ART (Abstinent Research & Technologies) Management System**. The ERD visually represents the structure of the database including tables, fields, relationships, and keys used to model the data and business rules for the system.
 
 ## 🗂️ Project Description
 
